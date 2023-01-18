@@ -1,0 +1,396 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#header {
+    margin:auto;
+    height: 60px;
+    width:100%;
+    font-family:'avenirltstd_roman_55';
+    padding: 12px;
+   box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.4285;
+    background-color: #fff;
+}
+
+ul, ol {
+    list-style:none;
+   
+}   
+
+.menu {
+    width:65%; 
+    margin: auto; 
+    padding: 0 13%;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.menu > li {
+    float:left;
+   
+}
+
+.menu li a {
+    color:#fff;
+    text-decoration:none;
+    padding:5px 15px;
+    display:block;
+    background-color:#780068;
+    font-size: 19px;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+    
+}
+
+.menu li a:hover {
+    background-color:#780068;
+    text-decoration: underline;
+    
+}
+
+.menu li ul {
+    display:none;
+    position:absolute;
+    min-width:80px;  /*tamaño casillas*/
+    max-width: 250px;
+    text-align: center;
+    
+    
+}
+
+.menu li:hover > ul {
+    display:block;
+    
+}
+
+.menu li ul li {
+    position:relative;
+   
+}
+
+.menu li ul li ul {
+    right:-140px;
+    top:0px;
+    
+}
+.s1{
+    min-width: 190px;
+    text-align: center;
+    border: 1px solid #780069;
+}
+.s2{
+    min-width: 70px;
+    text-align: center;
+}
+.s3{
+    text-align: center;
+}
+.s4{
+    text-align: center;
+}
+.s5{
+    min-width: 240px;
+    text-align: center;
+}
+.top {
+    background-color: #90007e;
+    height: 70px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+.imagen{
+    padding: 10px 0px;
+    color: #770067;
+}
+
+.gato_container{
+    
+    height: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0px;
+}
+.fondo{
+    background-color:#780067 ;
+    box-sizing: border-box;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    padding: 0;
+   }
+.s6{
+    color: #ffb800 !important; 
+}
+.search img {
+    height: auto;
+    float: right ; 
+    margin-top: 2px;
+    margin-right: 10px;
+    
+    
+}
+.fondo_text{
+    list-style: none;
+    padding: 40px 30px;
+}
+.fondo_text{
+    list-style: none;
+}
+h1{
+   color: #780068;
+   font-size: 36px;
+   margin-bottom: 25px;
+   padding: 20px 17% ;
+   font-family: 'Red Hat Display', sans-serif; 
+  
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family:  'avenirltstd_light_35';
+    text-align: justify;
+    padding: 0px 17% ;
+    
+}
+.facebook{
+    
+    float: right ; 
+    margin-top: -80px;
+    margin-right: 30px;
+    
+}
+.facebook:hover {
+    filter:brightness(130%);
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    
+}
+.cita_text{
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-family: 'avenirltstd_roman_55';
+    font-size: 28px;
+    font-style: italic;
+    border: none;
+    position: relative;
+    padding: 10px 60px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.cita_text::before{
+    content:url("C:/Users/prueba 2/Desktop/html/comilla.png");
+    vertical-align: bottom;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.cita_text::after{
+   content:url("C:/Users/prueba 2/Desktop/html/comilla_2.png");
+    vertical-align: bottom;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.sub_ind{
+    top: -1em;
+    font-size: 40%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baselineS;
+}
+strong{
+    font-weight: bold;
+}
+.text_2{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family:'avenirltstd_light_35',arial,sans-serif ;
+    padding: 0px 17% ;
+}
+.general{
+    padding: 0px 17% ;
+    font-family:'avenirltstd_light_35',arial,sans-serif ;
+    line-height: 1.42;
+}
+.boton .info_2{
+    background-color: #ffb800;
+    color: white; 
+    border: none;
+    padding: 16px 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 24px;
+    line-height: 17px;
+    min-width: 230px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.boton .info_2:hover{
+    background-color: #F1ECEB; 
+    color: #780068;
+
+}
+
+.face{
+    padding: 36px 0; 
+    width:31px;
+    height:30px; 
+    
+}
+.face:hover {
+    filter:brightness(150%);
+    cursor: pointer;
+    
+    
+}
+h2{
+    color:#780068;
+    font-size: 'avenirltstd_roman_55';
+    font-size: 36px;
+    margin-bottom: 25px;
+    padding: 20px 0;
+}
+.texto{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family:'avenirltstd_light_35',arial,sans-serif ;
+   text-align: justify;
+}
+h3{
+    color:#780068;
+    font-size: 'avenirltstd_roman_55';
+    font-size: 36px;
+    margin-bottom: 25px;
+    padding: 20px 0;
+}
+.tables{
+    background-color: #797979;
+    padding: 55px 0;
+    Display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    text-align: center;
+    
+}
+
+.sub{
+    text-decoration: none; 
+    color: white;
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.sub:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+h4{
+    font-size: 28px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.inferior{
+    background-color: #770067;
+    width: 100%;
+    Display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 15px;
+    margin: none;
+}
+.key{
+    
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+.key:hover{
+    text-decoration: underline;
+
+}
+.cookies{
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.cookies:hover{
+    text-decoration: underline;
+
+}
+.balance{
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.balance:hover{
+    text-decoration: underline;
+
+}
+.sobre{
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.sobre:hover{
+    text-decoration: underline;
+
+}
+.text_inferior{
+    font-size: small;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    background-color: #770067;
+}
+.boton_cookies .info_3{
+    background-color: #ffb800;
+    color: white; 
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 24px;
+    line-height: 17px;
+    min-width: 200px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.boton_cookies{
+    background-color: #770067;
+    text-align: end;
+
+}
